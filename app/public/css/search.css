@@ -1,0 +1,82 @@
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+}
+
+
+#search {
+    background-color: #ececea;
+    /* height: 18px; */
+    /* font-size: 16px; */
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#searchForm button {
+    background-color: transparent;
+    border: none;
+}
+
+#searchSubmit {
+    border: none;
+}
+
+#searchSubmit img {
+    max-height: 100%;
+    width: 25px;
+}
+
+#searchForm button:hover {
+    cursor: pointer;
+}
+
+.jumbotron {
+    background: #dbe0e0;
+    display:  flex;
+    justify-content:  center;
+    align-items:  center;
+    flex-direction:  column;
+}
+
+.searchResult {
+    border: 3px solid #ececea;
+    border-radius: 2px;
+    margin-top: 50px;
+    min-height: 150px;
+    max-height: 300px;
+}
+
+.leftBookDiv {
+    background-color: #ececea;
+    overflow-y: auto;
+}
+
+.rightBookDiv {
+    text-align: center;
+    background-color: transparent;
+    padding: auto auto;
+}
+
+.resultThumbnail {
+    height: 84%;
+    width: 56%;
+}

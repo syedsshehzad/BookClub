@@ -1,0 +1,32 @@
+
+<nav class="navbar navbar-expand-lg navbar-light sticky-top nav-bg">
+    <a class="navbar-brand" href="#">
+        <img src="/static/images/icons/book-48.png" alt="Book Icon">
+    </a>
+    <button class="navbar-toggler btn-color" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a href="#collapseOne" class="btn btn-color" id="toggleOne">Favorites</a>
+            </li>
+            <li class="nav-item">
+                <a href="#collapseTwo" class="btn btn-color" id="toggleTwo">Planning to Read</a>
+            </li>
+            <li class="nav-item">
+                <a href="#collapseThree" class="btn btn-color" id="toggleThree">Currently Reading</a>
+            </li>
+            <li class="nav-item">
+                <a href="#collapseFour" class="btn btn-color" id="toggleFour">Previously Read</a>
+            </li>
+            <li class="nav-item">
+                <p id="status"><%= username %> Logged In</p>
+            </li>
+            <li class="nav-item">
+                <a href="/logout" class="btn btn-color1" id="logout">Logout</a>
+            </li>
+        </ul>
+    </div>
+</nav>

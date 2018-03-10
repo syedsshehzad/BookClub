@@ -1,0 +1,120 @@
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color:#fff;
+    text-decoration: none;
+}
+
+html, body {
+    padding:0;
+    margin:0;
+    height: 100%;
+    font-family: Poppins-Medium;
+}
+body {
+    overflow-x: hidden;
+}
+
+
+body {
+    background-color: #ffffff;
+    font-size: 14px;
+    min-width: 720px;
+}
+
+#topContainer {
+    min-height: 100%;
+    width: 100%;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+.img-fluid {
+    max-width: 100px;
+}
+
+.nav-bg {
+    background: #3f3d56;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-color {
+    border: 0;
+    color: #fff;
+    padding: 10px 40px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#bc60f6), to(#9873d4));
+    background: #633d9a;
+    /* border-radius: 60px; */
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.btn-color1 {
+    border: 0;
+    color: #FFE;
+    padding: 15px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: -webkit-gradient(linear, left top, left bottom, from(#bc60f6), to(#9873d4));
+    background: linear-gradient(#bc60f6, #9873d4);
+    border-radius: 60px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+
+}
+
+.btn-color:hover {
+    background-color: #558C89;
+}
+
+#status {
+    border: 0;
+    color: #fff;
+    padding-right: 120px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    margin: 10px;
+}
+
+@media(min-width:768px) {
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+}
