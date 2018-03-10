@@ -36,3 +36,7 @@ db.sequelize.sync().then(() => {
     console.log("App listening on PORT " + PORT);
   });
 });
+
+if (process.env.JAWSDB_URL) {
+	connection = mysql.createConnection(process.env.JAWSDB_URL);
+}
