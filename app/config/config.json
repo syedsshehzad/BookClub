@@ -8,16 +8,14 @@
   },
   "test": {
     "username": "root",
-    "password": "rootpw",
-    "database": "database_test",
+    "password": "sequelserver",
+    "database": "BookClub",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": "rootpw",
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "use_env_variable":"JAWSDB_URL",
+    "database": "p0xj6c0yc0lzqx4a",
     "dialect": "mysql"
   }
 }
